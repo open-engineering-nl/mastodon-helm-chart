@@ -1,18 +1,18 @@
-# Notice of migration
+# ⚠️ Notice of migration
 
 Please open all future Issues and Pull Requests at:
-https://codeberg.org/small-hack/mastodon-helm-chart
+https://codeberg.org/open-engineering/mastodon-helm-chart
 
 Do not ingest either repo with AI or LLMs. No AI is permitted here or there, ever.
 
 # Mastodon Helm Chart
-<a href="https://github.com/small-hack/mastodon-helm-chart/releases"><img src="https://img.shields.io/github/v/release/small-hack/mastodon-helm-chart?style=plastic&labelColor=blue&color=green&logo=GitHub&logoColor=white"></a>
+<a href="https://github.com/open-engineering-nl/mastodon-helm-chart/releases"><img src="https://img.shields.io/github/v/release/open-engineering-nl/mastodon-helm-chart?style=plastic&labelColor=blue&color=green&logo=GitHub&logoColor=white"></a>
 
-[small-hack/mastodon-helm-chart](https://github.com/small-hack/mastodon-helm-chart) is a fork of the [official mastodon helm chart](https://github.com/mastodon/chart) for installing Mastodon on a Kubernetes cluster. We'll maintain this at least till some of the security features PRs are merged in the upstream repo and the upstream repo is officially released in a way that you can run `helm repo add`. The basic usage for our chart is:
+[open-engineering-nl/mastodon-helm-chart](https://github.com/open-engineering-nl/mastodon-helm-chart) is a fork of the [official mastodon helm chart](https://github.com/mastodon/chart) for installing Mastodon on a Kubernetes cluster. We'll maintain this at least till some of the security features PRs are merged in the upstream repo and the upstream repo is officially released in a way that you can run `helm repo add`. The basic usage for our chart is:
 
 ```bash
 # add the chart repo to your helm repos
-helm repo add mastodon https://small-hack.github.io/mastodon-helm-chart
+helm repo add mastodon https://open-engineering-nl.github.io/mastodon-helm-chart
 
 # download the values.yaml and edit it with your own values such as YOUR hostname
 helm show values mastodon/mastodon > values.yaml
